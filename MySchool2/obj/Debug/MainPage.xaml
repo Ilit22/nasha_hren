@@ -1,0 +1,77 @@
+﻿<Page
+    x:Class="MySchool2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MySchool2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" RequestedTheme="Dark">
+    <Page.Background>
+        <ImageBrush Stretch="Fill" ImageSource="Assets/abcd.jpg"/>
+    </Page.Background>
+
+    <ScrollViewer>
+        <StackPanel Margin="30,10,30,0">
+            <TextBlock Text="Школа 1747" TextAlignment="Center" VerticalAlignment="Center" FontSize="36" Margin="0,0,0,25"/>
+            <Grid x:Name="classgrid" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Image x:ConnectionId='2' x:Name="paw1" Tag="5в" Grid.Row="1" Grid.Column="1" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='3' x:Name="paw2" Tag="6в" Grid.Row="1" Grid.Column="2" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='4' x:Name="paw3" Tag="7в" Grid.Row="1" Grid.Column="3" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='5' x:Name="paw4" Tag="8в" Grid.Row="1" Grid.Column="4" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='6' x:Name="paw5" Tag="5г" Grid.Row="2" Grid.Column="1" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='7' x:Name="paw6" Tag="6г" Grid.Row="2" Grid.Column="2" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='8' x:Name="paw7" Tag="7г" Grid.Row="2" Grid.Column="3" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='9' x:Name="paw8" Tag="8г" Grid.Row="2" Grid.Column="4" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='10' x:Name="paw9" Tag="5д" Grid.Row="3" Grid.Column="1" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='11' x:Name="paw10" Tag="6д" Grid.Row="3" Grid.Column="2" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='12' x:Name="paw11" Tag="7д" Grid.Row="3" Grid.Column="3" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='13' x:Name="paw12" Tag="8д" Grid.Row="3" Grid.Column="4" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='14' x:Name="paw13" Tag="5е" Grid.Row="4" Grid.Column="1" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='15' x:Name="paw14" Tag="6е" Grid.Row="4" Grid.Column="2" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='16' x:Name="paw15" Tag="7е" Grid.Row="4" Grid.Column="3" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='17' x:Name="paw16" Tag="8е" Grid.Row="4" Grid.Column="4" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='18' x:Name="paw17" Tag="5ж" Grid.Row="5" Grid.Column="1" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='19' x:Name="paw18" Tag="6ж" Grid.Row="5" Grid.Column="2" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='20' x:Name="paw19" Tag="7ж" Grid.Row="5" Grid.Column="3" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='21' x:Name="paw20" Tag="8ж" Grid.Row="5" Grid.Column="4" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='22' x:Name="paw21" Tag="5з" Grid.Row="6" Grid.Column="1" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='23' x:Name="paw22" Tag="6з" Grid.Row="6" Grid.Column="2" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='24' x:Name="paw23" Tag="7з" Grid.Row="6" Grid.Column="3" Source="Assets/енот лапа.png"                   />
+                <Image x:ConnectionId='25' x:Name="paw24" Tag="8з" Grid.Row="6" Grid.Column="4" Source="Assets/енот лапа.png"                   />
+
+                <TextBlock x:Name="tb1" Grid.Column="1"  Grid.Row="0" TextWrapping="Wrap" Text="5" TextAlignment="Center" VerticalAlignment="Center" FontSize="21.333"/>
+                <TextBlock x:Name="tb2" Grid.Column="2"  Grid.Row="0" TextWrapping="Wrap" Text="6" TextAlignment="Center" VerticalAlignment="Center" FontSize="21.333"/>
+                <TextBlock x:Name="tb3" Grid.Column="3"  Grid.Row="0" TextWrapping="Wrap" Text="7" TextAlignment="Center" VerticalAlignment="Center" FontSize="21.333"/>
+                <TextBlock x:Name="tb4" Grid.Column="4"  Grid.Row="0" TextWrapping="Wrap" Text="8" TextAlignment="Center" VerticalAlignment="Center" FontSize="21.333"/>
+                <TextBlock x:Name="tb5" Grid.Column="0"  Grid.Row="1" TextWrapping="Wrap" Text="&quot;В&quot;" TextAlignment="Center" VerticalAlignment="Center" FontSize="21.333"/>
+                <TextBlock x:Name="tb6" Grid.Column="0"  Grid.Row="2" TextWrapping="Wrap" Text="&quot;Г&quot;" TextAlignment="Center" VerticalAlignment="Center" FontSize="21.333"/>
+                <TextBlock x:Name="tb7" Grid.Column="0"  Grid.Row="3" TextWrapping="Wrap" Text="&quot;Д&quot;" TextAlignment="Center" VerticalAlignment="Center" FontSize="21.333"/>
+                <TextBlock x:Name="tb8" Grid.Column="0"  Grid.Row="4" TextWrapping="Wrap" Text="&quot;Е&quot;" TextAlignment="Center" VerticalAlignment="Center" FontSize="21.333"/>
+                <TextBlock x:Name="tb9" Grid.Column="0"  Grid.Row="5" TextWrapping="Wrap" Text="&quot;Ж&quot;" TextAlignment="Center" VerticalAlignment="Center" FontSize="21.333"/>
+                <TextBlock x:Name="tb10" Grid.Column="0" Grid.Row="6" TextWrapping="Wrap" Text="&quot;З&quot;" TextAlignment="Center" VerticalAlignment="Center" FontSize="21.333"/>
+            </Grid>
+
+            <Button x:ConnectionId='1' x:Name="go" Content="Выбери класс" HorizontalAlignment="Stretch" VerticalAlignment="Top" FontSize="24" FontWeight="Normal" Height="65" Margin="0,25"                 />
+
+        </StackPanel>
+    </ScrollViewer>
+</Page>
+
