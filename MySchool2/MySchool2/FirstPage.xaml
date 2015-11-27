@@ -1,0 +1,55 @@
+﻿<Page
+    x:Class="MySchool2.FirstPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MySchool2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" RequestedTheme="Dark">
+    <Page.Background>
+        <ImageBrush Stretch="Fill" ImageSource="Assets/abcd.jpg"/>
+    </Page.Background>
+
+    <ScrollViewer>
+        <StackPanel Margin="35, 0">
+            <StackPanel Background="#4C000000" Margin="0,5" Loaded="stackpanel_loaded">
+                <TextBlock x:Name="timel" FontSize="66.667" TextAlignment="Center" Text="12:12" Margin="0,5" Loaded="timel_loaded" Foreground="Red" />
+                <TextBlock x:Name="cab" Text="Каб. 420, Икт" FontSize="24" TextAlignment="Center" FontStyle="Italic" Margin="0,10" />
+            </StackPanel>
+            <Grid Margin="0, 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel x:Name="lessons" Background="#4C000000" Grid.Column="0" PointerPressed="back_view" PointerReleased="back_view2">
+                    <Image Source="Assets/енот.png" Margin="0,0,0,10" />
+                    <TextBlock Text="Расписание" FontSize="24" TextAlignment="Center" FontStyle="Italic" />
+                </StackPanel>
+                <StackPanel x:Name="dishes" Background="#4C000000" Grid.Column="2" PointerPressed="back_view" PointerReleased="back_view2">
+                    <Image Source="Assets/енот.png" Margin="0,0,0,10" />
+                    <TextBlock Text="Еда" FontSize="24" TextAlignment="Center" FontStyle="Italic" />
+                </StackPanel>
+            </Grid>
+            <Grid Margin="0, 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel x:Name="map" Background="#4C000000" Grid.Column="0" PointerPressed="back_view" PointerReleased="back_view2">
+                    <Image Source="Assets/енот.png" Margin="0,0,0,10" />
+                    <TextBlock Text="Карта" FontSize="24" TextAlignment="Center" FontStyle="Italic" />
+                </StackPanel>
+                <StackPanel x:Name="mini_game" Background="#4C000000" Grid.Column="2" PointerPressed="back_view" PointerReleased="back_view2">
+                    <Image Source="Assets/енот.png" Margin="0,0,0,10" />
+                    <TextBlock Text="Мини-игра" FontSize="24" TextAlignment="Center" FontStyle="Italic" />
+                </StackPanel>
+            </Grid>
+            <StackPanel x:Name="teachers" Background="#4C000000" Margin="0, 10" Orientation="Horizontal" PointerPressed="back_view" PointerReleased="back_view2">
+                <Image Source="Assets/енот.png" Height="100" Margin="0,5" />
+                <TextBlock FontSize="24" FontStyle="Italic" Margin="15" Text="Учителя" VerticalAlignment="Center" />
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</Page>
