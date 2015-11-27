@@ -101,12 +101,12 @@ namespace MySchool2
                     ds = 59 - ds;
                     }
 
-                    if (hms[i, 4] == 1) {
+                    if (dh == hms[i, 0] && dm >= hms[i, 1] && dm < hms[i, 2] & hms[i, 4] == 1) {
                         timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 234, 34, 34));
                     }
                     else   
                     {
-                        timel.Foreground = new SolidColorBrush(Color.FromArgb(100, 92, 193, 10));
+                        timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 92, 193, 10));
                     }
                 }
 

@@ -35,3 +35,40 @@ C:\Users\User\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debu
 C:\Users\User\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\FirstPage.g.cs
 C:\Users\User\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\FirstPage.xaml
 C:\Users\User\documents\visual studio 2015\Projects\MySchool2\MySchool2\obj\Debug\FirstPage.xbf
+E:\MySchool2\MySchool2\bin\Debug\App.xbf
+E:\MySchool2\MySchool2\bin\Debug\FirstPage.xbf
+E:\MySchool2\MySchool2\bin\Debug\MainPage.xbf
+E:\MySchool2\MySchool2\bin\Debug\MySchool2.xr.xml
+E:\MySchool2\MySchool2\bin\Debug\MySchool2.exe
+E:\MySchool2\MySchool2\bin\Debug\MySchool2.pdb
+E:\MySchool2\MySchool2\bin\Debug\resources.pri
+E:\MySchool2\MySchool2\bin\Debug\AppxManifest.xml
+E:\MySchool2\MySchool2\obj\Debug\App.g.i.cs
+E:\MySchool2\MySchool2\obj\Debug\App.g.cs
+E:\MySchool2\MySchool2\obj\Debug\FirstPage.g.i.cs
+E:\MySchool2\MySchool2\obj\Debug\FirstPage.g.cs
+E:\MySchool2\MySchool2\obj\Debug\MainPage.g.i.cs
+E:\MySchool2\MySchool2\obj\Debug\MainPage.g.cs
+E:\MySchool2\MySchool2\obj\Debug\XamlTypeInfo.g.cs
+E:\MySchool2\MySchool2\obj\Debug\App.xaml
+E:\MySchool2\MySchool2\obj\Debug\FirstPage.xaml
+E:\MySchool2\MySchool2\obj\Debug\MainPage.xaml
+E:\MySchool2\MySchool2\obj\Debug\App.xbf
+E:\MySchool2\MySchool2\obj\Debug\FirstPage.xbf
+E:\MySchool2\MySchool2\obj\Debug\MainPage.xbf
+E:\MySchool2\MySchool2\obj\Debug\XamlSaveStateFile.xml
+E:\MySchool2\MySchool2\obj\Debug\MySchool2.exe
+E:\MySchool2\MySchool2\obj\Debug\MySchool2.pdb
+E:\MySchool2\MySchool2\obj\Debug\priconfig.xml
+E:\MySchool2\MySchool2\obj\Debug\priconfig.xml.intermediate
+E:\MySchool2\MySchool2\obj\Debug\layout.resfiles
+E:\MySchool2\MySchool2\obj\Debug\layout.resfiles.intermediate
+E:\MySchool2\MySchool2\obj\Debug\resources.resfiles
+E:\MySchool2\MySchool2\obj\Debug\resources.resfiles.intermediate
+E:\MySchool2\MySchool2\obj\Debug\pri.resfiles
+E:\MySchool2\MySchool2\obj\Debug\pri.resfiles.intermediate
+E:\MySchool2\MySchool2\obj\Debug\qualifiers.txt
+E:\MySchool2\MySchool2\obj\Debug\qualifiers.txt.intermediate
+E:\MySchool2\MySchool2\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\MySchool2\MySchool2\obj\Debug\ProjectArchitectures.txt
+E:\MySchool2\MySchool2\bin\Debug\MySchool2.build.appxrecipe
