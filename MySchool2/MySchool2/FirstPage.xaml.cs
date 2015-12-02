@@ -59,7 +59,6 @@ namespace MySchool2
 
         private async void timel_loaded(object sender, RoutedEventArgs e)
         {
-
             while (true)
             {
                 DateTime dt = DateTime.Now;
@@ -67,6 +66,8 @@ namespace MySchool2
                 int dh = dt.Hour;
                 int dm = dt.Minute;
                 int ds = dt.Second;
+                int i;
+                int k;
 
                 int[,] hms =
                 {
@@ -89,25 +90,32 @@ namespace MySchool2
                 {14, 00, 10, -50, 1}, //6
                 {14, 10, 30, -30, 2},
                 {14, 30, 60, 15, 1}, //7
-                {15, 00, 15, -45, 1} //7
+                {15, 00, 15, -45, 1}, //7               
                 };
 
-                for (int i = 0; i < 20; i++)
+                for (i = 0; i < 20; i++)
                 {
                     if (dh == hms[i, 0] && dm >= hms[i, 1] && dm < hms[i, 2])
                     {
-                    dh = 0;
-                    dm = 59 - dm + hms[i, 3];
-                    ds = 59 - ds;
-                    }
+                        dh = 0;
+                        dm = 59 - dm + hms[i, 3];
+                        ds = 59 - ds;
+                        k = hms[i, 4];
 
-                    if (hms[i, 4] == 1) {
-                        timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 234, 34, 34));
+                        if (k == 1)
+                        {
+                            timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 234, 34, 34));
+                        }
+                        else if (k == 2)
+                        {
+                            timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 92, 193, 10));
+                        }
                     }
-                    else   
-                    {
-                        timel.Foreground = new SolidColorBrush(Color.FromArgb(100, 92, 193, 10));
-                    }
+                }
+              
+                if (dh >= 15 && dm > 15)
+                {
+                    timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 255, 255, 255));
                 }
 
                 string sdh = dh.ToString(), sdm = dm.ToString(), sds = ds.ToString();
@@ -124,7 +132,7 @@ namespace MySchool2
                 if (dh < 10)
                 {
                     sdh = "0" + dh;
-                }
+                }                
 
                 timel.Text = sdh + ":" + sdm + ":" + sds;
                 await Task.Delay(1000);
