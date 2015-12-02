@@ -93,22 +93,50 @@ namespace MySchool2
                 {15, 00, 15, -45, 1} //7
                 };
 
-                for (i = 0; i < 20; i++)
-                {
-                    if (dh == hms[i, 0] && dm >= hms[i, 1] && dm < hms[i, 2])
-                    {
-                        dh = 0;
-                        dm = 59 - dm + hms[i, 3];
-                        ds = 59 - ds;
-                        k = hms[i, 4];
 
-                        if (k == 1)
+                if (dh < 8)
+                {
+                    dh = 8 - dh;
+                    dm = 59 - dm + 30;
+                    ds = 59 - ds;
+                    if (dm > 59) { dm = dm - 60; dh++; }
+                    timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 255, 255, 255));
+                }
+                else if (dh == 8 && dm < 30)
+                {
+                    dh = 0;
+                    dm = 59 - dm + 30;
+                    ds = 59 - ds;
+                    if (dm > 59) { dm = dm - 60; dh++; }
+                    timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 255, 255, 255));
+                }
+                else if (dh > 15 || (dh == 15 && dm > 15))
+                {
+                    dh = 23 - dh + 8;
+                    dm = 59 - dm + 30;
+                    ds = 59 - ds;
+                    if (dm > 59) { dm = dm - 60; dh++; }
+                    timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 255, 255, 255));
+                }
+                else
+                {
+                    for (i = 0; i < 20; i++)
+                    {
+                        if (dh == hms[i, 0] && dm >= hms[i, 1] && dm < hms[i, 2])
                         {
-                            timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 234, 34, 34));
-                        }
-                        else if (k == 2)
-                        {
-                            timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 92, 193, 10));
+                            dh = 0;
+                            dm = 59 - dm + hms[i, 3];
+                            ds = 59 - ds;
+                            k = hms[i, 4];
+
+                            if (k == 1)
+                            {
+                                timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 234, 34, 34));
+                            }
+                            else if (k == 2)
+                            {
+                                timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 92, 193, 10));
+                            }
                         }
                     }
                 }

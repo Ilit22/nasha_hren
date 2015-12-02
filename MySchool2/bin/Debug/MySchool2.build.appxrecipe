@@ -1,78 +1,78 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>TOPPC</Machine>
-    <WindowsUser>ТопПекарь</WindowsUser>
+    <Machine>LENOVO-420-1</Machine>
+    <WindowsUser>User</WindowsUser>
     <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
     <TargetOsVersion>6.3</TargetOsVersion>
     <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>57e5f053-4582-489e-8e69-edc576c7bd09</PackageIdentityName>
-    <IntermediateOutputPath>E:\MySchool2\MySchool2\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Кодим на C#\git\MySchool2\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\MySchool2\MySchool2\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="D:\Кодим на C#\git\MySchool2\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\MySchool2\MySchool2\bin\Debug\MySchool2.exe">
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\bin\Debug\MySchool2.exe">
       <PackagePath>MySchool2.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\MySchool2\MySchool2\Assets\abcd.jpg">
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\abcd.jpg">
       <PackagePath>Assets\abcd.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\MySchool2\MySchool2\Assets\raccoon.jpg">
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\raccoon.jpg">
       <PackagePath>Assets\raccoon.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\MySchool2\MySchool2\Assets\Logo.scale-240.png">
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\MySchool2\MySchool2\Assets\SmallLogo.scale-240.png">
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\MySchool2\MySchool2\Assets\SplashScreen.scale-240.png">
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\SplashScreen.scale-240.png">
       <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\MySchool2\MySchool2\Assets\Square71x71Logo.scale-240.png">
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\MySchool2\MySchool2\Assets\StoreLogo.scale-240.png">
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\MySchool2\MySchool2\Assets\WideLogo.scale-240.png">
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\MySchool2\MySchool2\Assets\енот лапа зел.png">
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\енот лапа зел.png">
       <PackagePath>Assets\енот лапа зел.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\MySchool2\MySchool2\Assets\енот лапа.png">
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\енот лапа.png">
       <PackagePath>Assets\енот лапа.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\MySchool2\MySchool2\Assets\енот.png">
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\енот.png">
       <PackagePath>Assets\енот.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\MySchool2\MySchool2\bin\Debug\MySchool2.xr.xml">
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\bin\Debug\MySchool2.xr.xml">
       <PackagePath>MySchool2.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\MySchool2\MySchool2\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\MySchool2\MySchool2\bin\Debug\FirstPage.xbf">
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\bin\Debug\FirstPage.xbf">
       <PackagePath>FirstPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\MySchool2\MySchool2\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\MySchool2\MySchool2\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

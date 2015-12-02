@@ -37,18 +37,18 @@
                     <ColumnDefinition Width="10"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <StackPanel x:ConnectionId='3' x:Name="map" Background="#4C000000" Grid.Column="0"                                                        >
+                <StackPanel x:ConnectionId='3' x:Name="teachers" Background="#4C000000" Grid.Column="0"                                                        >
                     <Image Source="Assets/енот.png" Margin="0,0,0,10" />
-                    <TextBlock Text="Карта" FontSize="24" TextAlignment="Center" FontStyle="Italic" />
+                    <TextBlock Text="Учителя" FontSize="24" TextAlignment="Center" FontStyle="Italic" />
                 </StackPanel>
                 <StackPanel x:ConnectionId='4' x:Name="mini_game" Background="#4C000000" Grid.Column="2"                                                        >
                     <Image Source="Assets/енот.png" Margin="0,0,0,10" />
                     <TextBlock Text="Мини-игра" FontSize="24" TextAlignment="Center" FontStyle="Italic" />
                 </StackPanel>
             </Grid>
-            <StackPanel x:ConnectionId='2' x:Name="teachers" Background="#4C000000" Margin="0, 10" Orientation="Horizontal"                                                        >
+            <StackPanel x:ConnectionId='2' x:Name="map" Background="#4C000000" Margin="0, 10" Orientation="Horizontal"                                                        >
                 <Image Source="Assets/енот.png" Height="100" Margin="0,5" />
-                <TextBlock FontSize="24" FontStyle="Italic" Margin="15" Text="Учителя" VerticalAlignment="Center" />
+                <TextBlock FontSize="24" FontStyle="Italic" Margin="15" Text="Карта" VerticalAlignment="Center" />
             </StackPanel>
         </StackPanel>
     </ScrollViewer>

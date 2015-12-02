@@ -1,1 +1,1 @@
-E:\MySchool2\MySchool2\MySchool2.csproj;neutral
+D:\Кодим на C#\git\MySchool2\MySchool2.csproj;neutral
