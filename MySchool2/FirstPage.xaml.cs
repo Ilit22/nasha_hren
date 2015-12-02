@@ -67,6 +67,7 @@ namespace MySchool2
                 int dh = dt.Hour;
                 int dm = dt.Minute;
                 int ds = dt.Second;
+                int i,k;
 
                 int[,] hms =
                 {
@@ -92,21 +93,23 @@ namespace MySchool2
                 {15, 00, 15, -45, 1} //7
                 };
 
-                for (int i = 0; i < 20; i++)
+                for (i = 0; i < 20; i++)
                 {
                     if (dh == hms[i, 0] && dm >= hms[i, 1] && dm < hms[i, 2])
                     {
-                    dh = 0;
-                    dm = 59 - dm + hms[i, 3];
-                    ds = 59 - ds;
-                    }
+                        dh = 0;
+                        dm = 59 - dm + hms[i, 3];
+                        ds = 59 - ds;
+                        k = hms[i, 4];
 
-                    if (dh == hms[i, 0] && dm >= hms[i, 1] && dm < hms[i, 2] & hms[i, 4] == 1) {
-                        timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 234, 34, 34));
-                    }
-                    else   
-                    {
-                        timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 92, 193, 10));
+                        if (k == 1)
+                        {
+                            timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 234, 34, 34));
+                        }
+                        else if (k == 2)
+                        {
+                            timel.Foreground = new SolidColorBrush(Color.FromArgb(255, 92, 193, 10));
+                        }
                     }
                 }
 
