@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" RequestedTheme="Dark">
     <Page.Background>
-        <ImageBrush Stretch="Fill" ImageSource="Assets/abcd.jpg"/>
+        <ImageBrush Stretch="Fill" ImageSource="Assets/back.jpg"/>
     </Page.Background>
 
     <ScrollViewer>
@@ -32,15 +32,15 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
 
-                <Image x:Name="paw1" Tag="5в" Grid.Row="1" Grid.Column="1" Source="Assets/енот лапа.png" Tapped="Changeimg"/>
-                <Image x:Name="paw2" Tag="6в" Grid.Row="1" Grid.Column="2" Source="Assets/енот лапа.png" Tapped="Changeimg"/>
-                <Image x:Name="paw3" Tag="7в" Grid.Row="1" Grid.Column="3" Source="Assets/енот лапа.png" Tapped="Changeimg"/>
-                <Image x:Name="paw4" Tag="8в" Grid.Row="1" Grid.Column="4" Source="Assets/енот лапа.png" Tapped="Changeimg"/>
-                <Image x:Name="paw5" Tag="5г" Grid.Row="2" Grid.Column="1" Source="Assets/енот лапа.png" Tapped="Changeimg"/>
-                <Image x:Name="paw6" Tag="6г" Grid.Row="2" Grid.Column="2" Source="Assets/енот лапа.png" Tapped="Changeimg"/>
-                <Image x:Name="paw7" Tag="7г" Grid.Row="2" Grid.Column="3" Source="Assets/енот лапа.png" Tapped="Changeimg"/>
-                <Image x:Name="paw8" Tag="8г" Grid.Row="2" Grid.Column="4" Source="Assets/енот лапа.png" Tapped="Changeimg"/>
-                <Image x:Name="paw9" Tag="5д" Grid.Row="3" Grid.Column="1" Source="Assets/енот лапа.png" Tapped="Changeimg"/>
+                <Image x:Name="paw1" Tag="5в" Grid.Row="1" Grid.Column="1" Source="Assets/енот-лапа2.png" Tapped="Changeimg"/>
+                <Image x:Name="paw2" Tag="6в" Grid.Row="1" Grid.Column="2" Source="Assets/енот-лапа2.png" Tapped="Changeimg"/>
+                <Image x:Name="paw3" Tag="7в" Grid.Row="1" Grid.Column="3" Source="Assets/енот-лапа2.png" Tapped="Changeimg"/>
+                <Image x:Name="paw4" Tag="8в" Grid.Row="1" Grid.Column="4" Source="Assets/енот-лапа2.png" Tapped="Changeimg"/>
+                <Image x:Name="paw5" Tag="5г" Grid.Row="2" Grid.Column="1" Source="Assets/енот-лапа2.png" Tapped="Changeimg"/>
+                <Image x:Name="paw6" Tag="6г" Grid.Row="2" Grid.Column="2" Source="Assets/енот-лапа2.png" Tapped="Changeimg"/>
+                <Image x:Name="paw7" Tag="7г" Grid.Row="2" Grid.Column="3" Source="Assets/енот-лапа2.png" Tapped="Changeimg"/>
+                <Image x:Name="paw8" Tag="8г" Grid.Row="2" Grid.Column="4" Source="Assets/енот-лапа2.png" Tapped="Changeimg"/>
+                <Image x:Name="paw9" Tag="5д" Grid.Row="3" Grid.Column="1" Source="Assets/енот-лапа2.png" Tapped="Changeimg"/>
                 <Image x:Name="paw10" Tag="6д" Grid.Row="3" Grid.Column="2" Source="Assets/енот лапа.png" Tapped="Changeimg"/>
                 <Image x:Name="paw11" Tag="7д" Grid.Row="3" Grid.Column="3" Source="Assets/енот лапа.png" Tapped="Changeimg"/>
                 <Image x:Name="paw12" Tag="8д" Grid.Row="3" Grid.Column="4" Source="Assets/енот лапа.png" Tapped="Changeimg"/>

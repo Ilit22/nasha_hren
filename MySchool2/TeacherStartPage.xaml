@@ -10,18 +10,26 @@
 
     <ScrollViewer>
         <StackPanel>
-            <Grid Height="150" Tapped="TeacherTap1">
+            <Grid Margin="4,0,0,4">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="100"/>
-                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="5*" />
+                    <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
-
-                <Image x:Name="Lobanov" Source="Assets/Лобанов.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
-                <TextBlock x:Name="TeacherNum1" HorizontalAlignment="Left" Margin="8,0,0,0" TextWrapping="Wrap" FontSize="30" Text="Лобанов Дмитрий Александрович" VerticalAlignment="Top" Grid.Column="1" />
-
-
+                <TextBox />
+                <Button Grid.Column="1" Content="✓" MinWidth="60" />
             </Grid>
-            <Grid Height="150" Tapped="TeacherTap2">
+            <Border BorderThickness="3" >
+                <Grid Height="150" Tapped="TeacherTap">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Image x:Name="Lobanov" Source="Assets/Лобанов.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
+                    <TextBlock x:Name="TeacherNum1" HorizontalAlignment="Left" Margin="8,0,0,0" TextWrapping="Wrap" FontSize="30" Text="Лобанов Дмитрий Александрович" VerticalAlignment="Top" Grid.Column="1" />
+                </Grid>
+            </Border>
+            <Grid Height="150" Tapped="TeacherTap">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="100"/>
                     <ColumnDefinition Width="*"/>
@@ -32,7 +40,7 @@
 
 
             </Grid>
-            <Grid Height="150" Tapped="TeacherTap3">
+            <Grid Height="150" Tapped="TeacherTap">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="100"/>
                     <ColumnDefinition Width="*"/>
@@ -43,7 +51,7 @@
 
 
             </Grid>
-            <Grid Height="150" Tapped="TeacherTap4">
+            <Grid Height="150" Tapped="TeacherTap">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="100"/>
                     <ColumnDefinition Width="*"/>
@@ -54,7 +62,7 @@
 
 
             </Grid>
-            <Grid Height="150" Tapped="TeacherTap5">
+            <Grid Height="150" Tapped="TeacherTap">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="100"/>
                     <ColumnDefinition Width="*"/>
@@ -65,7 +73,7 @@
 
 
             </Grid>
-            <Grid Height="150" Tapped="TeacherTap6">
+            <Grid Height="150" Tapped="TeacherTap">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="100"/>
                     <ColumnDefinition Width="*"/>
@@ -76,7 +84,7 @@
 
 
             </Grid>
-            <Grid Height="150" Tapped="TeacherTap7">
+            <Grid Height="150" Tapped="TeacherTap">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="100"/>
                     <ColumnDefinition Width="*"/>
@@ -86,7 +94,7 @@
                 <TextBlock x:Name="TeacherNum7" HorizontalAlignment="Left" Margin="8,0,0,0" TextWrapping="Wrap" FontSize="30" Text="Кузнецова Лидия Ивановна" VerticalAlignment="Top" Grid.Column="1" />
 
             </Grid>
-            <Grid Height="150">
+            <Grid Height="150" Tapped="TeacherTap">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="100"/>
                     <ColumnDefinition Width="*"/>
@@ -96,8 +104,6 @@
                 <TextBlock x:Name="TeacherNum8" HorizontalAlignment="Left" Margin="8,0,0,0" TextWrapping="Wrap" FontSize="30" Text="Сапотько Надежда Ивановна" VerticalAlignment="Top" Grid.Column="1" />
 
             </Grid>
-
-
         </StackPanel>
     </ScrollViewer>
 </Page>
