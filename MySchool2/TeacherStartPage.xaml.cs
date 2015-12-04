@@ -36,42 +36,7 @@ namespace MySchool2
         {
         }
 
-        private void TeacherTap1(object sender, TappedRoutedEventArgs e)
-        {
-
-        }
-
-        private void TeacherTap2(object sender, TappedRoutedEventArgs e)
-        {
-
-        }
-
-        private void TeacherTap3(object sender, TappedRoutedEventArgs e)
-        {
-
-        }
-
-        private void TeacherTap4(object sender, TappedRoutedEventArgs e)
-        {
-
-        }
-
-        private void TeacherTap5(object sender, TappedRoutedEventArgs e)
-        {
-
-        }
-
-        private void TeacherTap6(object sender, TappedRoutedEventArgs e)
-        {
-
-        }
-
-        private void TeacherTap7(object sender, TappedRoutedEventArgs e)
-        {
-
-        }
-
-        private void TeacherTap8(object sender, TappedRoutedEventArgs e)
+        private void TeacherTap(object sender, TappedRoutedEventArgs e)
         {
 
         }
