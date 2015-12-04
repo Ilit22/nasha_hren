@@ -1,0 +1,115 @@
+﻿<Page
+    x:Class="MySchool2.lessons"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MySchool2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Pivot Title="Расписание">
+        <PivotItem Header="Понедельник">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock x:Name="less11" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="1 урок" Grid.Row="0"/>
+                <TextBlock x:Name="less12" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="2 урок" Grid.Row="1"/>
+                <TextBlock x:Name="less13" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="3 урок" Grid.Row="2"/>
+                <TextBlock x:Name="less14" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="4 урок" Grid.Row="3"/>
+                <TextBlock x:Name="less15" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="5 урок" Grid.Row="4"/>
+                <TextBlock x:Name="less16" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="6 урок" Grid.Row="5"/>
+                <TextBlock x:Name="less17" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="7 урок" Grid.Row="6"/>
+            </Grid>
+        </PivotItem>
+        <PivotItem Header="Вторник">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock x:Name="less21" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="1 урок" Grid.Row="0"/>
+                <TextBlock x:Name="less22" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="2 урок" Grid.Row="1"/>
+                <TextBlock x:Name="less23" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="3 урок" Grid.Row="2"/>
+                <TextBlock x:Name="less24" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="4 урок" Grid.Row="3"/>
+                <TextBlock x:Name="less25" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="5 урок" Grid.Row="4"/>
+                <TextBlock x:Name="less26" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="6 урок" Grid.Row="5"/>
+                <TextBlock x:Name="less27" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="7 урок" Grid.Row="6"/>
+            </Grid>
+        </PivotItem>
+        <PivotItem Header="Среда">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock x:Name="less31" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="1 урок" Grid.Row="0"/>
+                <TextBlock x:Name="less32" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="2 урок" Grid.Row="1"/>
+                <TextBlock x:Name="less33" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="3 урок" Grid.Row="2"/>
+                <TextBlock x:Name="less34" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="4 урок" Grid.Row="3"/>
+                <TextBlock x:Name="less35" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="5 урок" Grid.Row="4"/>
+                <TextBlock x:Name="less36" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="6 урок" Grid.Row="5"/>
+                <TextBlock x:Name="less37" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="7 урок" Grid.Row="6"/>
+            </Grid>
+        </PivotItem>
+        <PivotItem Header="Четверг">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock x:Name="less41" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="1 урок" Grid.Row="0"/>
+                <TextBlock x:Name="less42" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="2 урок" Grid.Row="1"/>
+                <TextBlock x:Name="less43" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="3 урок" Grid.Row="2"/>
+                <TextBlock x:Name="less44" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="4 урок" Grid.Row="3"/>
+                <TextBlock x:Name="less45" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="5 урок" Grid.Row="4"/>
+                <TextBlock x:Name="less46" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="6 урок" Grid.Row="5"/>
+                <TextBlock x:Name="less47" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="7 урок" Grid.Row="6"/>
+            </Grid>
+        </PivotItem>
+        <PivotItem Header="Пятница">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock x:Name="less51" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="1 урок" Grid.Row="0"/>
+                <TextBlock x:Name="less52" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="2 урок" Grid.Row="1"/>
+                <TextBlock x:Name="less53" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="3 урок" Grid.Row="2"/>
+                <TextBlock x:Name="less54" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="4 урок" Grid.Row="3"/>
+                <TextBlock x:Name="less55" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="5 урок" Grid.Row="4"/>
+                <TextBlock x:Name="less56" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="6 урок" Grid.Row="5"/>
+                <TextBlock x:Name="less57" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="7 урок" Grid.Row="6"/>
+            </Grid>
+        </PivotItem>
+    </Pivot>
+    
+
+</Page>

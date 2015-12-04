@@ -109,3 +109,13 @@ D:\Кодим на C#\git\MySchool2\obj\Debug\qualifiers.txt
 D:\Кодим на C#\git\MySchool2\obj\Debug\qualifiers.txt.intermediate
 D:\Кодим на C#\git\MySchool2\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\Кодим на C#\git\MySchool2\obj\Debug\ProjectArchitectures.txt
+D:\Кодим на C#\git\MySchool2\bin\Debug\TeacherPage.xbf
+D:\Кодим на C#\git\MySchool2\obj\Debug\TeacherPage.g.i.cs
+D:\Кодим на C#\git\MySchool2\obj\Debug\TeacherPage.g.cs
+D:\Кодим на C#\git\MySchool2\obj\Debug\TeacherPage.xaml
+D:\Кодим на C#\git\MySchool2\obj\Debug\TeacherPage.xbf
+D:\Кодим на C#\git\MySchool2\bin\Debug\lessons.xbf
+D:\Кодим на C#\git\MySchool2\obj\Debug\lessons.g.i.cs
+D:\Кодим на C#\git\MySchool2\obj\Debug\lessons.g.cs
+D:\Кодим на C#\git\MySchool2\obj\Debug\lessons.xaml
+D:\Кодим на C#\git\MySchool2\obj\Debug\lessons.xbf

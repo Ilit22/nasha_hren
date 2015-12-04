@@ -27,6 +27,9 @@
     <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\raccoon.jpg">
       <PackagePath>Assets\raccoon.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\Лобанов.jpg">
+      <PackagePath>Assets\Лобанов.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -69,8 +72,14 @@
     <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\bin\Debug\FirstPage.xbf">
       <PackagePath>FirstPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\bin\Debug\lessons.xbf">
+      <PackagePath>lessons.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\bin\Debug\TeacherPage.xbf">
+      <PackagePath>TeacherPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
