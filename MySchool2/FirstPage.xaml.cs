@@ -161,5 +161,14 @@ namespace MySchool2
                 await Task.Delay(1000);
             }
         }
+
+        private void teachers_tapped(object sender, TappedRoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(TeacherStartPage));
+        }
+        private void lessons_tapped(object sender, TappedRoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(lessons));
+        }
     }
 }

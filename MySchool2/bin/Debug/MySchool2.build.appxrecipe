@@ -24,8 +24,35 @@
     <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\abcd.jpg">
       <PackagePath>Assets\abcd.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\Barmina.jpg">
+      <PackagePath>Assets\Barmina.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\Bogdanova.jpg">
+      <PackagePath>Assets\Bogdanova.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\Gusarova.jpg">
+      <PackagePath>Assets\Gusarova.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\Kazarikhina.jpg">
+      <PackagePath>Assets\Kazarikhina.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\Khlynina.jpg">
+      <PackagePath>Assets\Khlynina.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\Kuznetsova.jpg">
+      <PackagePath>Assets\Kuznetsova.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\raccoon.jpg">
       <PackagePath>Assets\raccoon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\Sapotko.jpg">
+      <PackagePath>Assets\Sapotko.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\Бармина ТВ.jpg">
+      <PackagePath>Assets\Бармина ТВ.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\Богданова.jpg">
+      <PackagePath>Assets\Богданова.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\Assets\Лобанов.jpg">
       <PackagePath>Assets\Лобанов.jpg</PackagePath>
@@ -80,6 +107,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\bin\Debug\TeacherPage.xbf">
       <PackagePath>TeacherPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\bin\Debug\TeacherStartPage.xbf">
+      <PackagePath>TeacherStartPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Кодим на C#\git\MySchool2\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

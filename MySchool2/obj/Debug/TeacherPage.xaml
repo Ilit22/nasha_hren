@@ -17,11 +17,12 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 
+
                 <StackPanel Grid.Column="1">
                     <Image x:Name="image" VerticalAlignment="Stretch"  HorizontalAlignment="Stretch" Source="Assets/Лобанов.jpg" MaxHeight="400"/>
-                    <TextBlock />
-                    <TextBlock />
-                    <TextBlock />
+                    <TextBlock x:Name="FirstName" FontSize="21.2" TextAlignment="Center" FontStyle="Italic" Text="Лобанов Дмитрий Александрович" Height="36" Margin="-10,0,-10,0" />
+                    <TextBlock x:Name="TeacherJob" FontSize="21" FontStyle="Italic" Text="Учитель Информатики" Height="36" Margin="-3,0,-5,0"/>
+                    <TextBlock x:Name="NumberClass" FontSize="21" FontStyle="Italic" Text="Кабинет 419" Height="36" Margin="-3,0,-5,0"/>
                 </StackPanel>
             </Grid>
             

@@ -119,3 +119,8 @@ D:\Кодим на C#\git\MySchool2\obj\Debug\lessons.g.i.cs
 D:\Кодим на C#\git\MySchool2\obj\Debug\lessons.g.cs
 D:\Кодим на C#\git\MySchool2\obj\Debug\lessons.xaml
 D:\Кодим на C#\git\MySchool2\obj\Debug\lessons.xbf
+D:\Кодим на C#\git\MySchool2\bin\Debug\TeacherStartPage.xbf
+D:\Кодим на C#\git\MySchool2\obj\Debug\TeacherStartPage.g.i.cs
+D:\Кодим на C#\git\MySchool2\obj\Debug\TeacherStartPage.g.cs
+D:\Кодим на C#\git\MySchool2\obj\Debug\TeacherStartPage.xaml
+D:\Кодим на C#\git\MySchool2\obj\Debug\TeacherStartPage.xbf

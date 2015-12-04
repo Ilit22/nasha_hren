@@ -1,0 +1,103 @@
+﻿<Page
+    x:Class="MySchool2.TeacherStartPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MySchool2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <ScrollViewer>
+        <StackPanel>
+            <Grid Height="150" Tapped="TeacherTap1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image x:Name="Lobanov" Source="Assets/Лобанов.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
+                <TextBlock x:Name="TeacherNum1" HorizontalAlignment="Left" Margin="8,0,0,0" TextWrapping="Wrap" FontSize="30" Text="Лобанов Дмитрий Александрович" VerticalAlignment="Top" Grid.Column="1" />
+
+
+            </Grid>
+            <Grid Height="150" Tapped="TeacherTap2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image x:Name="Barmina" Source="Assets/Бармина ТВ.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
+                <TextBlock x:Name="TeacherNum2" HorizontalAlignment="Left" Margin="8,0,0,0" TextWrapping="Wrap" FontSize="30" Text="Бармина Тамара Васильевна" VerticalAlignment="Top" Grid.Column="1" />
+
+
+            </Grid>
+            <Grid Height="150" Tapped="TeacherTap3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image x:Name="PhotoNum3" Source="Assets/Богданова.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
+                <TextBlock x:Name="TeacherNum3" HorizontalAlignment="Left" Margin="8,0,0,0" TextWrapping="Wrap" FontSize="30" Text="Богданова Лариса Витальевна" VerticalAlignment="Top" Grid.Column="1" />
+
+
+            </Grid>
+            <Grid Height="150" Tapped="TeacherTap4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image x:Name="PhotoNum4" Source="Assets/Gusarova.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
+                <TextBlock x:Name="TeacherNum4" HorizontalAlignment="Left" Margin="8,0,0,0" TextWrapping="Wrap" FontSize="30" Text="Гусарова Александра Михайловна" VerticalAlignment="Top" Grid.Column="1" />
+
+
+            </Grid>
+            <Grid Height="150" Tapped="TeacherTap5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image x:Name="PhotoNum5" Source="Assets/Kazarikhina.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
+                <TextBlock x:Name="TeacherNum5" HorizontalAlignment="Left" Margin="8,0,0,0" TextWrapping="Wrap" FontSize="30" Text="Казарихина Татьяна Пантелеевна" VerticalAlignment="Top" Grid.Column="1" />
+
+
+            </Grid>
+            <Grid Height="150" Tapped="TeacherTap6">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image x:Name="PhotoNum6" Source="Assets/Khlynina.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
+                <TextBlock x:Name="TeacherNum6" HorizontalAlignment="Left" Margin="8,0,0,0" TextWrapping="Wrap" FontSize="30" Text="Хлыгина Ильмира Ильдаровна" VerticalAlignment="Top" Grid.Column="1" />
+
+
+            </Grid>
+            <Grid Height="150" Tapped="TeacherTap7">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image x:Name="PhotoNum7" Source="Assets/Kuznetsova.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
+                <TextBlock x:Name="TeacherNum7" HorizontalAlignment="Left" Margin="8,0,0,0" TextWrapping="Wrap" FontSize="30" Text="Кузнецова Лидия Ивановна" VerticalAlignment="Top" Grid.Column="1" />
+
+            </Grid>
+            <Grid Height="150">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image x:Name="PhotoNum8" Source="Assets/Sapotko.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
+                <TextBlock x:Name="TeacherNum8" HorizontalAlignment="Left" Margin="8,0,0,0" TextWrapping="Wrap" FontSize="30" Text="Сапотько Надежда Ивановна" VerticalAlignment="Top" Grid.Column="1" />
+
+            </Grid>
+
+
+        </StackPanel>
+    </ScrollViewer>
+</Page>

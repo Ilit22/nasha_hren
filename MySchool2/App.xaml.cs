@@ -102,7 +102,8 @@ namespace MySchool2
                     {
                         throw new Exception("Failed to create initial page");
                     }
-                } else
+                }
+                else
                 {
                     if (!rootFrame.Navigate(typeof(MainPage), e.Arguments))
                     {

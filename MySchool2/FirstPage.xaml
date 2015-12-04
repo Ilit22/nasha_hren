@@ -22,7 +22,7 @@
                     <ColumnDefinition Width="10"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <StackPanel x:Name="lessons" Background="#4C000000" Grid.Column="0" PointerPressed="back_view" PointerReleased="back_view2">
+                <StackPanel x:Name="lessons" Background="#4C000000" Grid.Column="0" PointerPressed="back_view" PointerReleased="back_view2" Tapped="lessons_tapped">
                     <Image Source="Assets/енот.png" Margin="0,0,0,10" />
                     <TextBlock Text="Расписание" FontSize="24" TextAlignment="Center" FontStyle="Italic" />
                 </StackPanel>
@@ -37,7 +37,7 @@
                     <ColumnDefinition Width="10"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <StackPanel x:Name="teachers" Background="#4C000000" Grid.Column="0" PointerPressed="back_view" PointerReleased="back_view2">
+                <StackPanel x:Name="teachers" Background="#4C000000" Grid.Column="0" PointerPressed="back_view" PointerReleased="back_view2" Tapped="teachers_tapped">
                     <Image Source="Assets/енот.png" Margin="0,0,0,10" />
                     <TextBlock Text="Учителя" FontSize="24" TextAlignment="Center" FontStyle="Italic" />
                 </StackPanel>
